@@ -1,0 +1,19 @@
+h1 {
+    background-color: red;
+}
+
+p {
+    background: blue;
+    font_size: 32pt;
+    color: green;
+}
+
+.LEHA {
+    color: pink;
+    background: black;
+    border: 10px solid yellow;
+    border-radius: 35px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-lift: 20px;
+}
