@@ -3,7 +3,7 @@ h1 {
 }
 
 p {
-    background: blue;
+
     font_size: 32pt;
     color: green;
 }
@@ -16,4 +16,16 @@ p {
     margin-bottom: 60px;
     padding-bottom: 60px;
     padding-lift: 20px;
+}
+
+
+.DZ {
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: green;
+    color: black;
+
+
+
 }
