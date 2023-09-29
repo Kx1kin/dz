@@ -8,4 +8,6 @@ class Advertisement(models.Model):
      create_at = models.DateTimeField(auto_now_add=True)
      update_at = models.DateTimeField(auto_now=True)
      def __str__(self):
-          return f'id = {self.id}, title = {self.title}, price = {self.price}'
+          return f'Advertisements(id = {self.id}, title = {self.title}, price = {self.price})'
+     class Meta:
+          db_table = "Advertisements"
