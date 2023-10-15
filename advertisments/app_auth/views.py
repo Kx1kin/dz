@@ -1,8 +1,8 @@
+from .forms import ExtendedUserCreationForm
 from django.shortcuts import render, redirect, reverse
-from django.contrib.auth import authenticate, login,  logout
+from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
-from .forms import ExtendedUserCreationForm
 
 def profile_view(request):
     return render(request, 'app_auth/profile.html')
